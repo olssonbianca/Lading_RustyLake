@@ -5,32 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/566941887a.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="assets/Favicon.png">
+        <link rel="shortcut icon" href="assets/Favicon.png"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet"> 
         <link href="Css/style.css" rel="stylesheet">
-        <title>Rusty Lake
-        </title>
+        <title>Rusty Lake</title>
     </head>
     <body>
         <header>
             <div><img src='assets/Logo(1).png' alt=''> </div>
-            <img src='assets/header.png' alt=''>
-            <h1>¡Welcome!</h1>
-            <h3>to Rusty Lake</h3>
+            <div>
+                <h1>¡Welcome!</h1>
+            </div>
         </header>
         <main>
-            <img src='assets/encabezado.jpg' alt=''>
-            <p>Rusty Lake is both the name of our indie game studio and the eerie and surrealistic 
+            <img id="img-main" src='assets/encabezado.jpg' alt=''>
+            <p class="descripcion">Rusty Lake is both the name of our indie game studio and the eerie and surrealistic 
                 world we have created. Become part of Rusty Lake's mysterious adventures!
             </p>
         </main>
-        <section>
-            <h2>Dear visitor,</h2>
-            <h3>Welcome to Rusty Lake, a surreal place where anything can happen. We offer you the most 
+        <section class="about-us">
+            <article id="txt-aboutus">
+                <h2 id="title">Dear visitor,</h2>
+                <h3 id="subtitle">Welcome to Rusty Lake, a surreal place where anything can happen. We offer you the most 
                 mysterious game series you'll ever play.</h3>
-            <p>Why not try out our praised Cube Escape series first? Let the cubes guide you the eerie and atmospheric 
+                <p>Why not try out our praised Cube Escape series first? Let the cubes guide you the eerie and atmospheric 
                 point-and-click adventures with an "escape room" feeling. Currently we have ten Cube Escape games taking 
                 place in the Rusty Lake universe. Cube Escape: Paradox is our latest installment which is combined with a 
                 short film! Download them for ten on iOS, Android or play on Desktop.
@@ -44,147 +43,134 @@
                 unique game-play made by more forward-looking developers.
                 Check out our blog, social media or newsletter for new updates and content.
                 We wish you a pleasant stay in Rusty Lake!</p>
+            </article>
+            <img class='img-aboutus' src="assets/about-us.jpg" alt="">
+        </section>
         <section>
-            <h3>RUSTY LAKE GAMES</h3>
-            <p>These games are developed by us and are taking place in the Rusty Lake universe! 
-                We arranged all games by release date, start with Cube Escape: Seasons and work your way 
-                up to Cube Escape: Paradox (including the premium games). Would you like to play all Cube Escape games, check 
-                out our Cube Escape website.</p>
-            <div>
-                <div>
+            <article class="games">
+                <div class="descripcion">
+                    <h3>RUSTY LAKE GAMES</h3>
+                    <p>These games are developed by us and are taking place in the Rusty Lake universe! 
+                        We arranged all games by release date, start with Cube Escape: Seasons and work your way 
+                        up to Cube Escape: Paradox (including the premium games). Would you like to play all Cube Escape games, check 
+                        out our Cube Escape website.</p></div>
+            </article>
+            <div id="games-cards">
+                <div class="card">
                     <h4>Cube Escape Collection</h4>
-                    <img src="assets/Collection.jfif" alt="">
+                    <img class="img-card" src="assets/Collection.jfif" alt="">
                     <p>In this classic point-and-click adventure anthology you follow the path of Dale Vandermeer, a homicide detective, 
                         as he investigates the death of a woman and finds himself drawn into the mysterious world of Rusty Lake.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Samsara Room</h4>
-                    <img src="assets/samsara.jfif" alt="">
+                    <img  class="img-card" src="assets/samsara.jfif" alt="">
                     <p>You wake up in a strange room you have never seen before. There are a lot of random objects and furniture but there 
                         is one thing missing…a door to get out. Find a way to leave the room by interacting with the objects in this unique 
                         point & click adventure. Nothing is what it seems in this strange surreal place, only by thinking out of the box you 
                         will solve the riddle and escape.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>The Withe Door</h4>
-                    <img src="assets/thewhitedoor.png" alt="">
+                    <img class="img-card" src="assets/thewhitedoor.png" alt="">
                     <p>Robert Hill wakes up in a Mental Health facility and suffers from severe memory loss. Follow the facility’s 
                     strict daily routine, explore his dreams and help him recall his memories. The White Door is a new point-and-click 
                     adventure developed by the creators of the Cube Escape & Rusty Lake series.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape:Paradox</h4>
-                    <img src="assets/Paradox.jpg" alt="">
+                    <img class="img-card" src="assets/Paradox.jpg" alt="">
                     <p>Paradox is a combined Rusty Lake game & short film! Both follow the story 
                     of a detective who finds himself trapped in two different universes and needs to escape.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Rusty Lake Paradise</h4>
-                    <img src="assets/paradise.png" alt="">
+                    <img class="img-card" src="assets/paradise.png" alt="">
                     <p>Jakob, the oldest son of the Eilander family, is returning to Paradise island after his mother passed away. 
                     Since her mysterious deth, the island seems to be cursed by the ten plagues. Find the mother's hidden memories 
-                    and partake in strange family rituals in order to stop the plagues. Rusty Lake Paradise is the third premium 
-                    point-and-click adventure by Rusty Lake, the creators of the Cube Escape series, Rusty Lake Hotel & Rusty Lake: Roots.</p>
+                    and partake in strange family rituals in order to stop the plagues.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: The Cave</h4>
-                    <img src="assets/TheCave.png" alt="">
+                    <img  class="img-card" src="assets/TheCave.png" alt="">
                     <p>An old man is about to enter a mysterious Cave. A familiar guest needs your help before you descend 
                     deeper and deeper into Rusty Lake. Click on the arrows to navigate inside the cube. Interact with objects 
-                    by clicking. Select found items in your inventory and click somewhere on screen to use them. Cube Escape: 
-                    The Cave is the ninth episode of the Cube Escape series and is a continuation of the Rusty Lake story. We will 
-                    unfold Rusty Lake mysteries one step at a time.</p>
+                    by clicking. Select found items in your inventory and click somewhere on screen to use them.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Rusty Lake: Roots</h4>
-                    <img src="assets/Roots.jfif" alt="">
-                    <p>James Vanderboom's life drastically changes when he plants a special seed in the garden of the house 
-                    he has inherited. Expand your bloodline by unlocking portraits in the tree of life. A trip to this 
+                    <img  class="img-card" src="assets/Roots.jfif" alt="">
+                    <p>James Vanderboom's life drastically changes when he plants a special seed in the garden of the 
+                    house he has inherited. Expand your bloodline by unlocking portraits in the tree of life. A trip to this 
                     undiscovered part in the Rusty Lake universe will cost only $ 2,99 / € 2,99 and is now available on: iOS, 
-                    Android and Desktop</p>
+                    Android and Desktop </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: Theatre</h4>
-                    <img src="assets/Theatre.png" alt="">
+                    <img class="img-card" src="assets/Theatre.png" alt="">
                     <p>Welcome to the theatre of your mind. Tonight we have an engaging program, featuring a familiar cast. 
                     Fulfill all 6 plays in order to continue your journey. Click on the arrows to navigate inside the cube. 
                     Interact with objects by tapping. Select found items in your inventory and click somewhere on screen to use them. 
-                    Cube Escape: Theatre is the eighth episode of the Cube Escape series and is a continuation of the Rusty Lake story. 
-                    We will unfold Rusty Lake mysteries one step at a time.</p>
-                </div>
-                <div>
+                    </p>
+                </div >
+                <div class="card">
                     <h4>Cube Escape: Birthday</h4>
-                    <img src="assets/Birthday.png" alt="">
+                    <img class="img-card" src="assets/Birthday.png" alt="">
                     <p>Welcome to your 9th birthday, winter 1939. There is cake, music and a mysterious present. However, 
                     the mood changes quickly when an unexpected guest arrives at your party. Click on the arrows to navigate 
                     inside the cube. Interact with objects by tapping. Select found items in your inventory and click somewhere 
-                    on screen to use them. Cube Escape: Birthday is the seventh episode of the Cube Escape series and is a continuation 
-                    of the Rusty Lake story. We will unfold Rusty Lake mysteries one step at a time. So check RustyLake.com every day 
-                    for new content!</p>
+                    on screen to use them. </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Rusty Lake Hotel</h4>
-                    <img src="assets/Hotel.png" alt="">
+                    <img  class="img-card" src="assets/Hotel.png" alt="">
                     <p>Welcome our guests to the Rusty Lake Hotel and make sure they will have a pleasant stay. 
-                    There will be 5 dinners this week. Make sure every dinner is worth dying for! A single, 
-                    one way trip to this undiscovered part in the Rusty Lake universe will cost only $ 1,99 / € 1,99 and 
-                    is now available on: iOS, Android and Desktop.</p>
+                        There will be 5 dinners this week. Make sure every dinner is worth dying for! A single, one way 
+                        trip to this undiscovered part in the Rusty Lake universe will cost only $ 1,99 / € 1,99 and is now 
+                        available on: iOS, Android and Desktop.</p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: The Mill</h4>
-                    <img src="assets/TheMill.jfif" alt="">
+                    <img class="img-card" src="assets/TheMill.jfif" alt="">
                     <p>Welcome to the Rusty Lake Mill, the residence of Mr. Crow. A familiar guest will arrive soon 
                     and it is your task to get that mysterious machine running. Click on the arrows to navigate inside the cube. 
                     Interact with objects by clicking. Select found items in your inventory and click somewhere on screen to use them. 
-                    Cube Escape: The Mill is the sixth episode of the Cube Escape series and the story of Rusty Lake. We will unfold Rusty 
-                    Lakes one step at a time. So check RustyLake.com every day for new content!</p>
+                    </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: Case 23</h4>
-                    <img src="assets/Case23.png" alt="">
+                    <img class="img-card" src="assets/Case23.png" alt="">
                     <p>In Cube Escape: Case 23 you need to investigate the mysterious death of a woman. Collect all the evidence 
                     and discover the gateway to Rusty Lake. Click on the arrows to navigate inside the cube. Interact with objects 
-                    by clicking. Select found items in your inventory and click somewhere on screen to use them. Cube Escape: Case 23 
-                    is the fifth episode of the Cube Escape series and the story of Rusty Lake. We will unfold Rusty Lakes one step at 
-                    a time. So check RustyLake.com every day for new content!</p>
+                    by clicking. Select found items in your inventory and click somewhere on screen to use them. </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: Harvey's Box</h4>
-                    <img src="assets/Harveys_Box.png" alt="">
+                    <img class="img-card" src="assets/Harveys_Box.png" alt="">
                     <p>It's 1969 and Harvey is trapped inside a box moving to Rusty Lake...Find out what's 
-                    going on and help Harvey escape by solving numerous of puzzles. Cube Escape: Harvey's Box 
-                    is the fourth episode of the Cube Escape series and the story of Rusty Lake. We will unfold Rusty 
-                    Lakes one step at a time. So check RustyLake.com every day for new content!</p>
+                    going on and help Harvey escape by solving numerous of puzzles. </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: Arles</h4>
-                    <img src="assets/Arles.png" alt="">
+                    <img class="img-card" src="assets/Arles.png" alt="">
                     <p>You're trapped inside your bedroom in Arles. It feels like you're surrounded by art. 
                     Explore the room and start completing the pictures, search for colors and gather your painting 
                     materials. Click on the arrows to navigate inside the cube. Interact with objects by clicking. 
-                    Select found items in your inventory and click somewhere on screen to use them. Cube Escape: Arles is 
-                    the third episode of the Cube Escape series and the story of Rusty Lake. We will unfold Rusty Lakes one step 
-                    at a time. So check RustyLake.com every day for new content!</p>
+                    Select found items in your inventory and click somewhere on screen to use them. </p>
                 </div>
-                <div>
+                <div class="card"> 
                     <h4>Cube Escape: The Lake</h4>
-                    <img src="assets/TheLake.png" alt="">
+                    <img class="img-card" src="assets/TheLake.png" alt="">
                     <p>You've found an abandoned cabin on a small Island at Rusty Lake. The only thing you can 
                     find is some fishing gear, a knive and a crow bar. Start exploring and let's fish! 
-                    Perhaps you can change your fate... Click on the arrows to navigate inside the cabin. Interact 
-                    with objects by clicking. Select found items in your inventory and click somewhere on screen to use them.</p>
+                    Perhaps you can change your fate... Click on the arrows to navigate inside the cabin. </p>
                 </div>
-                <div>
+                <div class="card">
                     <h4>Cube Escape: Seasons</h4>
-                    <img src="assets/seasons.png" alt="">
+                    <img class="img-card" src="assets/seasons.png" alt="">
                     <p>Cube Escape is one of the most mysterious room escape game you will ever play. Try 
                     to unfold the story and mysteries behind the cubes. You will start with your 
-                    first memory, spring 1964. It brings you to a calm and friendly room. The room contains a 
-                    clock, a kitchen and a garden window. Your parrot Harvey has a bad mood. Explore and 
-                    start gathering items, you will quickly realise that something is wrong. Unlock the other 
-                    memory cubes by creating a path between the cubes. Maybe it's not too late... Click on the 
-                    arrows to navigate inside the cabin. Interact with objects by clicking. Select found items in 
-                    your inventory and click somewhere on screen to use them.</p>
+                    first memory, spring 1964. It brings you to a calm and friendly room.  </p>
                 </div>
             </div>
         </section>
