@@ -21,12 +21,42 @@ h1{
     font-weight: 700;
 }
 #img-main{
+    background-image: url(../assets/encabezado.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: auto;
+    height: 700px;
 }
 main{
     background-color: #542437;
 }
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+#boton-main{
+        cursor:pointer;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        background-color: #C02942;
+        border-radius: 40px;
+        width:170px;
+        height: 50px;
+        border: none;
+        padding: 15px;
+        box-shadow: 4px 4px 16px rgb(75, 75, 75);
+        margin-bottom: 155px;
+    
+    }
+#boton-main:hover{
+    opacity: 0.9;
+    
+}
+
 .descripcion{
     margin-left: 50px;
     width: 50%;
@@ -99,7 +129,7 @@ main{
     padding: 25px;
     width: 23%;
     height:auto;
-    box-shadow: 4px 4px 10px rgb(49, 36, 36);
+    box-shadow: 4px 4px 26px rgb(61, 60, 60);
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -116,12 +146,69 @@ h4{
     font-size: 24px;
 }
 
+
+
 .img-card{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
 
 
+}
+.img-card-horizontal{
+    width: 70%;
+    height: auto;
+
+}
+
+/*newsletter*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(../assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position-y: top;
+}
+#txt-footer{
+    font-size:65px;
+    margin-bottom: 35px;
+}
+form{
+    display: flex;
+    margin: 10px;
+}
+.email{
+    font-size: 22px;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    height: auto;
+    padding: 10px;
+    box-shadow: 4px 4px 16px rgb(61, 60, 60);
+}
+
+.boton{
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #C02942;
+    border-radius: 40px;
+    width:80px;
+    border: none;
+    padding: 12px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 16px rgb(61, 60, 60);
+    
+}
+.boton:hover{
+        opacity: 0.9;
+        
 }
